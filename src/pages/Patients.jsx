@@ -10,8 +10,6 @@ import {
   export default function Patients() {
     let patients = getPatients();
     let [searchParams, setSearchParams] = useSearchParams();
-
-    console.log('patients', patients)
   
     return (
       <Grid container spacing={2}>

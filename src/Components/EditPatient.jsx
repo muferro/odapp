@@ -17,22 +17,22 @@ export default function EditPatient(props) {
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             <Grid container spacing={2}>
-              <Grid item sm={1}>
+              <Grid item xs={12} sm={1}>
              <TextField fullWidth id="standard-basic" label="id" disabled variant="standard" value={props.data.id} />
              </Grid>
-             <Grid item sm={11}>
+             <Grid item xs={12} sm={11}>
              <TextField fullWidth id="standard-basic" label="Nome" variant="standard" value={props.data.name} />
              </Grid>
-             <Grid item sm={6}>
+             <Grid item xs={12} sm={6}>
              <TextField fullWidth id="standard-basic" label="Cidade" variant="standard" value={props.data.cidade} />
              </Grid>
-             <Grid item sm={6}>
+             <Grid item xs={12} sm={6}>
              <TextField fullWidth id="standard-basic" label="Estado" variant="standard" value={props.data.estado} />
              </Grid>
-             <Grid item sm={6}>
+             <Grid item xs={12} sm={6}>
              <TextField fullWidth id="standard-basic" label="Idade" variant="standard" value={props.data.idade} />
              </Grid>
-             <Grid item sm={6}>
+             <Grid item xs={12} sm={6}>
              <TextField fullWidth id="standard-basic" label="Data de cadastro" disabled variant="standard" value={props.data.dataCadastro} />
              </Grid>
              </Grid>
